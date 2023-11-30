@@ -2,7 +2,7 @@
 
 for i in {1..2}; do
 
-  if [ $i eq 1]; then
+  if [ $i -eq 1 ]; then
     URL=$API_URL
     API_KEY=$API_KEY
     STACK_NAME=$STACK_NAME
@@ -14,7 +14,7 @@ for i in {1..2}; do
     GET_IMAGE_SHA=$api_docker/images/json
     DELETE_IMAGE=$api_docker/images
     tags=$tags
-  elif [ $i -eq 2]; then 
+  elif [ $i -eq 2 ]; then
     URL=$API_URL
     API_KEY=$API_KEY
     STACK_NAME=$STACK_NAME

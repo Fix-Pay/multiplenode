@@ -18,7 +18,7 @@ for i in {1..2}; do
     URL=$API_URL
     API_KEY=$API_KEY
     STACK_NAME=apis2
-    CONTAINER_NAME=apis2
+    CONTAINER_NAME=apis
     FILE_PATH=$FILE_PATH
     ENDPOINT=$ENDPOINT2
     api_docker=$api_docker2

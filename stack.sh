@@ -20,7 +20,7 @@ for i in {1..2}; do
     STACK_NAME=$STACK_NAME
     CONTAINER_NAME=$CONTAINER_NAME
     FILE_PATH=$FILE_PATH
-    ENDPOINT=$ENDPOINT2
+    ENDPOINT=3
     api_docker=$api_docker
     MANIPULA_CONTAINER=$api_docker/containers
     GET_IMAGE_SHA=$api_docker/images/json

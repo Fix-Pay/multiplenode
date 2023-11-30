@@ -65,7 +65,6 @@ for i in {1..2}; do
     id=$(echo "$response" | jq -r '.[] | select(.Name == "'"$STACK_NAME"'") | .Id')
     echo "Id da Stack: $id"
     
-    exit 1
     # Monta a URL para a exclusão
     DELETE_URL="$URL/$id"
     

@@ -20,8 +20,8 @@ for i in {1..2}; do
     STACK_NAME=apis2
     CONTAINER_NAME=apis2
     FILE_PATH=$FILE_PATH
-    ENDPOINT=3
-    api_docker=$api_docker
+    ENDPOINT=$ENDPOINT2
+    api_docker=$api_docker2
     MANIPULA_CONTAINER=$api_docker/containers
     GET_IMAGE_SHA=$api_docker/images/json
     DELETE_IMAGE=$api_docker/images
